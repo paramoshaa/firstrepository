@@ -20,7 +20,7 @@ def submit():
 #узнаём шо под *, а потом удаляем
 
 win = tk.Tk()
-win.geometry("500x600+300+20")
+win.geometry("500x920")
 win.title('Моё 1-ое приложение')
 
 tk.Label(win, text='Имя').grid(row=0, column=0,stick='w')
